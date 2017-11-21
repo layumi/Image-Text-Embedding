@@ -1,4 +1,4 @@
-# ConvVSE
+# Dual-Path Convolutional Image-Text Embedding
 
 Thank you for your kindly attention. 
 
