@@ -1,0 +1,18 @@
+digraph G {
+input -> x1[label = Conv5x5];
+x1 -> x2[label = Pooling];
+x2 -> x3[label = ReLU];
+x3 -> x4[label = Conv5x5];
+x4 -> x5[label = ReLU];
+x5 -> x6[label = Pooling];
+x6 -> x7[label = Conv5x5];
+x7 -> x8[label = ReLU];
+x8 -> x9[label = Pooling];
+x9 -> x10[label = Conv4x4];
+x10 -> x11[label = ReLU];
+x11 -> prediction[label = Conv1x1];
+prediction -> objective[label = Loss];
+label -> objective[label = Loss];
+prediction -> error[label = Loss];
+label -> error[label = Loss];
+}
