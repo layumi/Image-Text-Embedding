@@ -8,10 +8,16 @@ Dual-Path Convolutional Image-Text Embedding    https://arxiv.org/abs/1711.05535
 
 
 ### CheckList
-- [ ] Word2Vec Weight
+- [ ] Get word2vec weight
+
 - [ ] Data Preparation (Flickr30k)
-- [ ] Flickr30k
-- [ ] Data Preparation (COCO)
-- [ ] COCO
+- [ ] Train on Flickr30k
+- [ ] Test on Flickr30k
+
+- [ ] Data Preparation (MSCOCO)
+- [ ] Train on MSCOCO
+- [ ] Test on MSCOCO
+
 - [ ] Data Preparation (CUHK-PEDES)
-- [ ] CUHK-PEDES
+- [ ] Train on CUHK-PEDES
+- [ ] Test on CUHK-PEDES
