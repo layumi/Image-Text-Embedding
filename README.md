@@ -8,7 +8,7 @@ Dual-Path Convolutional Image-Text Embedding    https://arxiv.org/abs/1711.05535
 
 
 ### CheckList
-- [ ] Get word2vec weight
+- [x] Get word2vec weight
 
 - [ ] Data Preparation (Flickr30k)
 - [ ] Train on Flickr30k
