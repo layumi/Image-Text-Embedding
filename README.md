@@ -8,7 +8,10 @@ Dual-Path Convolutional Image-Text Embedding    https://arxiv.org/abs/1711.05535
 
 
 ### CheckList
-- [ ] Data Preparation (Flickr30k,COCO,CUHK-PEDES)
+- [ ] Word2Vec Weight
+- [ ] Data Preparation (Flickr30k)
 - [ ] Flickr30k
+- [ ] Data Preparation (COCO)
 - [ ] COCO
+- [ ] Data Preparation (CUHK-PEDES)
 - [ ] CUHK-PEDES
