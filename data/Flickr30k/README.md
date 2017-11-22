@@ -1,7 +1,7 @@
 ## Prepare Data
 
 ### Download Data
-Please visit http://shannon.cs.illinois.edu/DenotationGraph/ 
+Please visit http://shannon.cs.illinois.edu/DenotationGraph/   and  download Flickr30k.
 
 ### Get dicitionary
 ```
