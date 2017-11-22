@@ -15,7 +15,7 @@ In this step, we also get rid of rare words, which are not included in GoogleNew
 (matlab) prepare_wordcnn_feature2
 ```
 
-### 4. Put image url/label and text data/label in one file
+### 4. Put image url and text data in one file
 ```
 (matlab) prepare_data
 ```
