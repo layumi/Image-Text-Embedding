@@ -3,8 +3,9 @@
 ### 1. Download Data
 Please visit http://shannon.cs.illinois.edu/DenotationGraph/   and  download Flickr30k.
 
-### 2. Get dicitionary
+### 2. Clear data and Get dicitionary
 ```
+(matlab) clear_txt
 (matlab) make_dictionary
 ```
 
