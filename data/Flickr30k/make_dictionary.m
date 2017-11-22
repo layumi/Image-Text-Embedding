@@ -1,4 +1,4 @@
-load('/home/zzd/nlp/word2vector_matlab/GoogleNews_words.mat');
+load('../../word2vector_matlab/GoogleNews_words.mat');
 fid = fopen('/home/zzd/image-txt-retrieval/Flickr30k/flickr30k-train&val.txt');
 tline = fgetl(fid);
 w_sum = cellfun(@(x) sum(x),w_names);
@@ -31,5 +31,5 @@ subset.names = {w_names{sub}};
 subset.features = w_features(:,sub);
 save('flickr30k_dictionary.mat','subset');
 
-[idex,C] = kmeans(subset.features',1024);
-save('flickr30k_kmeans_1024.mat','idex','C');
+%[idex,C] = kmeans(subset.features',1024);
+%save('flickr30k_kmeans_1024.mat','idex','C');
