@@ -1,7 +1,7 @@
 function net = resnet52_new_hope()
 
 %----------------------img cnn----------------------
-netStruct = load('./Flickr30k/imagenet-vgg-verydeep-16.mat') ;
+netStruct = load('./data/imagenet-vgg-verydeep-16.mat') ;
 net = dagnn.DagNN.loadobj(netStruct) ;
 net.removeLayer('fc8');
 net.removeLayer('prob');
