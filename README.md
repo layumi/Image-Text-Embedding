@@ -27,6 +27,12 @@ This repository contains the code for our paper [Dual-Path Convolutional Image-T
 2. Prepare the dataset. Follow the instruction in `./dataset`. You can choose one dataset to run.
 Three datasets need different prepocessing. I write the instruction for [Flickr30k](https://github.com/layumi/Image-Text-Embedding/tree/master/data/Flickr30k), MSCOCO and CUHKPEDES.
 
+3. Download the model pre-trained on ImageNet. And put the model into './data'.
+```
+(bash) wget http://www.vlfeat.org/matconvnet/models/imagenet-resnet-50-dag.mat
+```
+Alternatively, you may try [VGG16](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-16.mat) or [VGG19](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat). 
+
 # Train
 1. Compile Matconvnet
 **(Note that I have included my Matconvnet in this repo, so you do not need to download it again. I have changed some codes comparing with the original version. For example, one of the difference is in `/matlab/+dagnn/@DagNN/initParams.m`. If one layer has params, I will not initialize it again, especially for pretrained model.)**
