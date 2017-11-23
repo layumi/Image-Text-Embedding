@@ -1,7 +1,7 @@
 function net = resnet52_new_hope()
 
 %----------------------img cnn----------------------
-netStruct = load('./Flickr30k/imagenet-resnet-50-dag.mat') ;
+netStruct = load('./data/imagenet-resnet-50-dag.mat') ;
 net = dagnn.DagNN.loadobj(netStruct) ;
 net.removeLayer('fc1000');
 net.removeLayer('prob');
