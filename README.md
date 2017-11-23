@@ -47,4 +47,9 @@ If you fail in compilation, you may refer to http://www.vlfeat.org/matconvnet/in
 2. Prepocessing may make you lose your patience. But let's just start trainning!!
 
 # Test
-1. 
+## Test
+Select one model and have fun! Run `test/extract_pic_feature_word2_plus_52.m` and to extract the image features from base branch and alignment brach. Note that you need to change the model path in the code. 
+
+If you train on CUHK-PEDES, use 'test_CUHK' to evaluate.
+
+If you train on MSCOCO, use 'test_COCO' to evaluate.
