@@ -8,16 +8,16 @@ This repository contains the code for our paper [Dual-Path Convolutional Image-T
 - [x] Get word2vec weight
 
 - [x] Data Preparation (Flickr30k)
-- [ ] Train on Flickr30k
-- [ ] Test on Flickr30k
+- [x] Train on Flickr30k
+- [x] Test on Flickr30k
 
 - [ ] Data Preparation (MSCOCO)
 - [ ] Train on MSCOCO
 - [ ] Test on MSCOCO
 
-- [ ] Data Preparation (CUHK-PEDES)
-- [ ] Train on CUHK-PEDES
-- [ ] Test on CUHK-PEDES
+- [x] Data Preparation (CUHK-PEDES)
+- [x] Train on CUHK-PEDES
+- [x] Test on CUHK-PEDES
 
 
 
@@ -25,7 +25,7 @@ This repository contains the code for our paper [Dual-Path Convolutional Image-T
 1. Extract wrod2vec weights. Follow the instruction in `./word2vector_matlab`;
 
 2. Prepare the dataset. Follow the instruction in `./dataset`. You can choose one dataset to run.
-Three datasets need different prepocessing. I write the instruction for [Flickr30k](https://github.com/layumi/Image-Text-Embedding/tree/master/data/Flickr30k), MSCOCO and CUHKPEDES.
+Three datasets need different prepocessing. I write the instruction for [Flickr30k](https://github.com/layumi/Image-Text-Embedding/tree/master/dataset/Flickr30k), MSCOCO and CUHKPEDES.
 
 3. Download the model pre-trained on ImageNet. And put the model into './data'.
 ```
@@ -34,16 +34,18 @@ Three datasets need different prepocessing. I write the instruction for [Flickr3
 Alternatively, you may try [VGG16](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-16.mat) or [VGG19](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat). 
 
 # Train
-* For Flickr30k, run ``
-Run ``
+* For Flickr30k, run `train_flickr_word2_1_pool.m` for **Stage I** training.
+Run `train_flickr_word_Rankloss_shift_hard` for **Stage II** training.
 
-2. 
+*  
 
-3. 
+* For CUHK-PEDES, run `train_cuhk_word2_1_pool.m` for **Stage I** training.
+Run `train_cuhk_word_Rankloss_shift` for **Stage II** training.
 
 # Test
-Select one model and have fun! Run `test/extract_pic_feature_word2_plus_52.m` and to extract the image features from base branch and alignment brach. Note that you need to change the model path in the code. 
+Select one model and have fun!
 
-If you train on CUHK-PEDES, use 'test_CUHK' to evaluate.
+* For Flickr30k, run `test/extract_pic_feature_word2_plus_52.m` and to extract the image features from base branch and alignment brach. Note that you need to change the model path in the code. 
 
-If you train on MSCOCO, use 'test_COCO' to evaluate.
+
+* For CUHK-PEDES, run `test-cuhk/extract_pic_feature_word2_plus_52.m` and to extract the image features from base branch and alignment brach. Note that you need to change the model path in the code. 
