@@ -25,7 +25,7 @@ This repository contains the code for our paper [Dual-Path Convolutional Image-T
 1. Extract wrod2vec weights. Follow the instruction in `./word2vector_matlab`;
 
 2. Prepare the dataset. Follow the instruction in `./dataset`. You can choose one dataset to run.
-Three datasets need different prepocessing. I write the instruction for [Flickr30k](https://github.com/layumi/Image-Text-Embedding/tree/master/dataset/Flickr30k), MSCOCO and CUHKPEDES.
+Three datasets need different prepocessing. I write the instruction for [Flickr30k](https://github.com/layumi/Image-Text-Embedding/tree/master/dataset/Flickr30k-prepare), MSCOCO and [CUHK-PEDES](https://github.com/layumi/Image-Text-Embedding/tree/master/dataset/CUHK-PEDES-prepare).
 
 3. Download the model pre-trained on ImageNet. And put the model into './data'.
 ```
@@ -35,11 +35,13 @@ Alternatively, you may try [VGG16](http://www.vlfeat.org/matconvnet/models/image
 
 # Train
 * For Flickr30k, run `train_flickr_word2_1_pool.m` for **Stage I** training.
+
 Run `train_flickr_word_Rankloss_shift_hard` for **Stage II** training.
 
-*  
+* For 
 
 * For CUHK-PEDES, run `train_cuhk_word2_1_pool.m` for **Stage I** training.
+
 Run `train_cuhk_word_Rankloss_shift` for **Stage II** training.
 
 # Test
