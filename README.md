@@ -38,7 +38,7 @@ Alternatively, you may try [VGG16](http://www.vlfeat.org/matconvnet/models/image
 
 Run `train_flickr_word_Rankloss_shift_hard` for **Stage II** training.
 
-* For 
+* For MSCOCO, run
 
 * For CUHK-PEDES, run `train_cuhk_word2_1_pool.m` for **Stage I** training.
 
@@ -49,5 +49,6 @@ Select one model and have fun!
 
 * For Flickr30k, run `test/extract_pic_feature_word2_plus_52.m` and to extract the image features from base branch and alignment brach. Note that you need to change the model path in the code. 
 
+* For MSCOCO, 
 
 * For CUHK-PEDES, run `test-cuhk/extract_pic_feature_word2_plus_52.m` and to extract the image features from base branch and alignment brach. Note that you need to change the model path in the code. 
