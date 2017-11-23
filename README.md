@@ -19,7 +19,7 @@ This repository contains the code for our paper [Dual-Path Convolutional Image-T
 - [x] Train on CUHK-PEDES
 - [x] Test on CUHK-PEDES
 
-
+- [ ] Run the code on another machine 
 
 # Prepare Data
 1. Extract wrod2vec weights. Follow the instruction in `./word2vector_matlab`;
