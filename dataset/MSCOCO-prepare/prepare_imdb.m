@@ -1,7 +1,7 @@
-clear;
-%val  
+clear;  
 %Note that I add original val to train
-%and then redefine the train/test split 
+%and then redefine the train/test split. 
+%5000 val, 5000 test  https://cs.stanford.edu/people/karpathy/cvpr2015.pdf.
 txt = fileread('./annotations/captions_val2014.json');
 json = jsondecode(txt);  %jsondecode is not available on 2015b. I use Matlab2016b.
 
