@@ -11,7 +11,7 @@ set = [ones(1,34054),2*ones(1,3078),3*ones(1,3074)];
 % dataset
 imdb.images.set = set;
 % change to full path
-imdb.images.data = cellfun(@(x) sprintf('./data/CUHK-PEDES/imgs_256/%sjpg',x(1:end-3)), file_path,'UniformOutput',false);;
+imdb.images.data = cellfun(@(x) sprintf('/home/zzd/Image-Text-Embedding/dataset/CUHK-PEDES-prepare/imgs_256/%sjpg',x(1:end-3)), file_path,'UniformOutput',false);;
 id(set~=1) = 0;  % remove val and test id for training
 imdb.images.label = id;
 count =1;
