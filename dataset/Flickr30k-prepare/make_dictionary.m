@@ -1,5 +1,5 @@
 load('../../word2vector_matlab/GoogleNews_words.mat');
-fid = fopen('/home/zzd/image-txt-retrieval/Flickr30k/flickr30k-train&val.txt');
+fid = fopen('./flickr30k-train&val.txt');
 tline = fgetl(fid);
 w_sum = cellfun(@(x) sum(x),w_names);
 subset.is_appear = zeros(1,3000000,'single');
