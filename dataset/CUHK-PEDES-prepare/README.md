@@ -1,7 +1,7 @@
 ## Prepare Data
 
 ### 1. Download Data
-Please visit http://shannon.cs.illinois.edu/DenotationGraph/   and  download Flickr30k.
+Please visit http://xiaotong.me/static/projects/person-search-language/dataset.html  and  download CUHK-PEDES.
 
 ### 2. Clear data and Get dicitionary
 ```
