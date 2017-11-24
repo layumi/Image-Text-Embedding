@@ -1,10 +1,10 @@
 clear;
-netStruct = load('../data/res52_batch32_Rankloss_2:0:0_margin1_img0.75_shift_hard_256_only_ranking/net-epoch-20.mat');
+netStruct = load('../data/res52_batch32_Rankloss_2:0:0_margin1_img0.75_shift_hard_256/net-epoch-20.mat');
 net = dagnn.DagNN.loadobj(netStruct.net);
 clear netStruct;
 net.mode = 'test' ;
 net.move('gpu') ;
-net.removeLayer('RankLoss');
+net.removeLayer('RankLoss');  % If you test Stage I model, please comment it. 
 net.conserveMemory = true;
 im_mean = reshape(net.meta.normalization.averageImage,1,1,3);
 load('../url_data.mat');
