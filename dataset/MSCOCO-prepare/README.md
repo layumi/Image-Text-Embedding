@@ -10,6 +10,7 @@ Please visit http://cocodataset.org/#home  and  download MSCOCO.
 ### 2. Make split
 We random select 5,000 images as val data, 5,000 images as test data.
 ```
+(matlab) resize_img
 (matlab) prepare_imdb
 ```
 
