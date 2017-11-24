@@ -7,7 +7,7 @@ Please visit http://shannon.cs.illinois.edu/DenotationGraph/   and  download Fli
 ```
 (matlab) split_Flickr30k
 (matlab) resize_image
-(matlab) prepare_imdb
+(matlab) prepare_imdb  %you need to change the full path in this script
 ```
 
 ### 3. Clear training data and Get dicitionary
