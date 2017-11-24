@@ -1,7 +1,7 @@
 %produce fix length word input
 %keep 32 word in one scentence
-load('/home/zzd/nlp/word2vector_matlab/flickr30k_dictionary.mat');
-fid = fopen('/home/zzd/image-txt-retrieval/Flickr30k/flickr30k-clear.txt');
+load('../../word2vector_matlab/flickr30k_dictionary.mat');
+fid = fopen('./flickr30k-clear.txt');
 tline = fgetl(fid);
 w_sum = cellfun(@(x) sum(x),subset.names);
 
