@@ -8,7 +8,7 @@ net.removeLayer('RankLoss');
 net.conserveMemory = true;
 im_mean = reshape(net.meta.normalization.averageImage,1,1,3);
 
-load('/home/zzd/CUHK-PEDES/url_data.mat');
+load('../dataset/CUHK-PEDES-prepare/url_data.mat');
 p = imdb.images.data(imdb.images.set==3);
 ff = [];
 %%------------------------------
@@ -32,7 +32,7 @@ save('./resnet_cuhk_img.mat','ff','-v7.3');
 %}
 
 ff = [];
-load('/home/zzd/CUHK-PEDES/cuhk_word2.mat');
+load('../dataset/CUHK-PEDES-prepare/cuhk_word2.mat');
 test_word = wordcnn(:,end-6155:end);
 
 for i = 1:6156
