@@ -11,7 +11,7 @@ Please visit http://cocodataset.org/#home  and  download MSCOCO.
 We random select 5,000 images as val data, 5,000 images as test data.
 ```
 (matlab) resize_img
-(matlab) prepare_imdb
+(matlab) prepare_imdb %you need to change the full path in this script
 ```
 
 ### 3. Get dicitionary
