@@ -4,7 +4,7 @@ net = dagnn.DagNN.loadobj(netStruct.net);
 clear netStruct;
 net.mode = 'test' ;
 net.move('gpu') ;
-net.removeLayer('RankLoss');
+net.removeLayer('RankLoss');  % If you test Stage I model, please comment it. 
 net.conserveMemory = true;
 im_mean = reshape(net.meta.normalization.averageImage,1,1,3);
 load('../url_data.mat');
