@@ -1,7 +1,7 @@
 clear;
-load('/home/zzd/CUHK-PEDES/test_id.mat');
-load('/home/zzd/CUHK-PEDES/caption.mat');
-load('/home/zzd/CUHK-PEDES/url_data.mat');
+load('../dataset/CUHK-PEDES-prepare/test_id.mat');
+load('../dataset/CUHK-PEDES-prepare/caption.mat');
+load('../dataset/CUHK-PEDES-prepare/url_data.mat');
 % get image feature
 ff1 = load('./resnet_cuhk_img.mat');
 ff2 = load('./resnet_cuhk_txt.mat');
