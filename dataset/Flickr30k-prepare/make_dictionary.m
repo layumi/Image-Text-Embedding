@@ -1,4 +1,5 @@
 load('../../word2vector_matlab/GoogleNews_words.mat');
+load('../../word2vector_matlab/GoogleNews_vectors.mat');
 fid = fopen('./flickr30k-train&val.txt');
 tline = fgetl(fid);
 w_sum = cellfun(@(x) sum(x),w_names);
