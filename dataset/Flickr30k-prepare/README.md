@@ -8,14 +8,15 @@ Please visit http://shannon.cs.illinois.edu/DenotationGraph/   and  download Fli
 (matlab) split_Flickr30k
 ```
 
-### 3. Clear data and Get dicitionary
+### 3. Clear training data and Get dicitionary
 ```
-(matlab) clear_txt
+(matlab) train_txt
 (matlab) make_dictionary
 ```
 
 ### 3. Transfer sentence to the index in dictionary
 In this step, we also get rid of rare words, which are not included in GoogleNews word2vector.
 ```
+(matlab) clear_txt
 (matlab) prepare_wordcnn_feature2
 ```
