@@ -11,7 +11,7 @@ imdb.charcnn = wordcnn;
 % -------------------------------------------------------------------------
 % Part 4.2: initialize a CNN architecture
 % -------------------------------------------------------------------------
-net = resnet52_new_hope_word2_pool_ft();
+net = resnet52_new_hope_word2_pool();
 net.conserveMemory = true;
 im_mean = imdb.rgbMean;
 net.meta.normalization.averageImage = im_mean;
@@ -26,7 +26,7 @@ opts.train.continue = true;
 opts.train.gpus = 4;
 opts.train.prefetch = false ;
 opts.train.nesterovUpdate = true ;
-opts.train.expDir = './data/res52_batch32_new_hope_word2.1_pool_shift_both_drop0.75_ft';
+opts.train.expDir = './data/res52_batch32_new_hope_word2.1_pool_shift_both_drop0.75';
 opts.train.derOutputs = {'objective_img',1,'objective_txt',1} ;
 %opts.train.gamma = 0.9;
 opts.train.momentum = 0.9;
