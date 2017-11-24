@@ -4,25 +4,6 @@ This repository contains the code for our paper [Dual-Path Convolutional Image-T
 
 ![](http://zdzheng.xyz/images/fulls/ConvVSE.jpg)
 
-**The compelete code will be uploaded in two weeks. I am adding illustrations and comments to the code for using. You can check my progress as follows.**
-
-### CheckList
-- [x] Get word2vec weight
-
-- [x] Data Preparation (Flickr30k)
-- [x] Train on Flickr30k
-- [x] Test on Flickr30k
-
-- [ ] Data Preparation (MSCOCO)
-- [x] Train on MSCOCO
-- [x] Test on MSCOCO
-
-- [x] Data Preparation (CUHK-PEDES)
-- [x] Train on CUHK-PEDES
-- [x] Test on CUHK-PEDES
-
-- [ ] Run the code on another machine 
-
 # Prepocess Datasets
 1. Extract wrod2vec weights. Follow the instruction in `./word2vector_matlab`;
 
@@ -56,3 +37,21 @@ Select one model and have fun!
 * For MSCOCO, run `test_coco/extract_pic_feature_word2_plus.m` and to extract the feature from image and text. Note that you need to change the model path in the code. 
 
 * For CUHK-PEDES, run `test_cuhk/extract_pic_feature_word2_plus_52.m` and to extract the feature from image and text. Note that you need to change the model path in the code. 
+
+
+### CheckList
+- [x] Get word2vec weight
+
+- [x] Data Preparation (Flickr30k)
+- [x] Train on Flickr30k
+- [x] Test on Flickr30k
+
+- [x] Data Preparation (MSCOCO)
+- [x] Train on MSCOCO
+- [x] Test on MSCOCO
+
+- [x] Data Preparation (CUHK-PEDES)
+- [x] Train on CUHK-PEDES
+- [x] Test on CUHK-PEDES
+
+- [ ] Run the code on another machine 
