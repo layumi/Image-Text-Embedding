@@ -8,7 +8,7 @@ net.removeLayer('RankLoss');
 net.conserveMemory = true;
 im_mean = reshape(net.meta.normalization.averageImage,1,1,3);
 
-load('/home/zzd/CUHK-PEDES/url_data.mat');
+load('../dataset/CUHK-PEDES-prepare/url_data.mat');
 p = imdb.images.data(imdb.images.set==3);
 %%----extract img
 
@@ -29,14 +29,14 @@ for j = 1:3:300  % loop for different img
     f_img = norm_zzd(f);
     
     % extract
-    load('/home/zzd/CUHK-PEDES/test_id.mat');
+    load('../dataset/CUHK-PEDES-prepare/test_id.mat');
     txt_id = test_id.txt_id;
     img_id = test_id.img_id;
     which_text = find(txt_id == img_id(which_img));
     which_text = which_text(1);
     
-    load('/home/zzd/CUHK-PEDES/cuhk_word2.mat');
-    load('//home/zzd/CUHK-PEDES/CUHK-PEDES_dictionary.mat');
+    load('../dataset/CUHK-PEDES-prepare/cuhk_word2.mat');
+    load('../dataset/CUHK-PEDES-prepare/CUHK-PEDES_dictionary.mat');
     word_name = subset.names;
     wordcnn = wordcnn(:,end-6155:end);
     content = wordcnn(:,which_text);
