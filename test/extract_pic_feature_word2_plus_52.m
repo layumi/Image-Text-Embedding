@@ -7,7 +7,7 @@ net.move('gpu') ;
 net.removeLayer('RankLoss');  % If you test Stage I model, please comment it. 
 net.conserveMemory = true;
 im_mean = reshape(net.meta.normalization.averageImage,1,1,3);
-load('../url_data.mat');
+load('../dataset/Flickr30k-prepare/url_data.mat');
 
 % val 2 test 3
 p = imdb.images.data(imdb.images.set==2);
@@ -34,7 +34,7 @@ save('../test/resnet_flikr30k_pool5_img.mat','ff','-v7.3');
 %}
 
 ff = [];
-load('../Flickr30k/dense_feature_word2.1.mat');
+load('../dataset/Flickr30k-prepare/dense_feature_word2.1.mat');
 % val 2 test 3
 test_set = find(imdb.images.set==2);
 
