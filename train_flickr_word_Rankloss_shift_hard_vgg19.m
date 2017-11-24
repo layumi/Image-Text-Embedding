@@ -3,9 +3,9 @@ function train_id_net_vgg16(varargin)
 % Part 4.1: prepare the data
 % -------------------------------------------------------------------------
 
-imdb = load('url_data.mat');
+imdb = load('./dataset/Flickr30k-prepare/url_data.mat');
 imdb = imdb.imdb;
-load('./Flickr30k/dense_feature_word2.1.mat');
+load('./dataset/Flickr30k-prepare/dense_feature_word2.1.mat');
 imdb.charcnn = wordcnn; 
 %imdb.charmean = mean(imdb.charcnn(:,:,:,imdb.images.set==1),4);
 % -------------------------------------------------------------------------
