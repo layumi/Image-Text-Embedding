@@ -2,7 +2,7 @@
 
 This repository contains the code for our paper [Dual-Path Convolutional Image-Text Embedding](https://arxiv.org/abs/1711.05535). Thank you for your kindly attention. 
 
-![](https://zdzheng.xyz/images/fulls/ConvVSE.jpg)
+![](http://zdzheng.xyz/images/fulls/ConvVSE.jpg)
 
 **The compelete code will be uploaded in two weeks. I am adding illustrations and comments to the code for using. You can check my progress as follows.**
 
