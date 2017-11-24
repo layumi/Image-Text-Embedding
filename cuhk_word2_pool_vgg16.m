@@ -270,7 +270,7 @@ first = net.getParamIndex('fc2f');
 net.params(first).learningRate = 1e-3;  %w
 net.params(first+1).learningRate = 1e-3;  %b
 
-load('/home/zzd/CUHK-PEDES/CUHK-PEDES_dictionary.mat');
+load('./dataset/CUHK-PEDES-prepare/CUHK-PEDES_dictionary.mat'); 
 %m = mean(subset.features,2);
 %subset.features = subset.features-repmat(m,1,20074);
 net.params(first).value = reshape(single(subset.features'),1,1,7263,300);
