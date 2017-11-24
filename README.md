@@ -27,7 +27,7 @@ This repository contains the code for our paper [Dual-Path Convolutional Image-T
 1. Extract wrod2vec weights. Follow the instruction in `./word2vector_matlab`;
 
 2. Prepare the dataset. Follow the instruction in `./dataset`. You can choose one dataset to run.
-Three datasets need different prepocessing. I write the instruction for [Flickr30k](https://github.com/layumi/Image-Text-Embedding/tree/master/dataset/Flickr30k-prepare), MSCOCO and [CUHK-PEDES](https://github.com/layumi/Image-Text-Embedding/tree/master/dataset/CUHK-PEDES-prepare).
+Three datasets need different prepocessing. I write the instruction for [Flickr30k](https://github.com/layumi/Image-Text-Embedding/tree/master/dataset/Flickr30k-prepare), [MSCOCO](https://github.com/layumi/Image-Text-Embedding/tree/master/dataset/MSCOCO-prepare) and [CUHK-PEDES](https://github.com/layumi/Image-Text-Embedding/tree/master/dataset/CUHK-PEDES-prepare).
 
 3. Download the model pre-trained on ImageNet. And put the model into './data'.
 ```
@@ -55,4 +55,4 @@ Select one model and have fun!
 
 * For MSCOCO, run `test_coco/extract_pic_feature_word2_plus.m` and to extract the feature from image and text. Note that you need to change the model path in the code. 
 
-* For CUHK-PEDES, run `test-cuhk/extract_pic_feature_word2_plus_52.m` and to extract the feature from image and text. Note that you need to change the model path in the code. 
+* For CUHK-PEDES, run `test_cuhk/extract_pic_feature_word2_plus_52.m` and to extract the feature from image and text. Note that you need to change the model path in the code. 
