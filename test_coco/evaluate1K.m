@@ -1,9 +1,9 @@
 fprintf('---------------1K test-----------------');
 
 clear;
-load('../../MSCOCO/test_id.mat');
-load('../../MSCOCO/caption.mat');
-load('../../MSCOCO/url_data.mat');
+load('../dataset/MSCOCO-prepare/test_id.mat');
+load('../dataset/MSCOCO-prepare/caption.mat');
+load('../dataset/MSCOCO-prepare/url_data.mat');
 % get image feature
 ff1 = load('./resnet_coco_img.mat');
 ff_img = ff1.ff;
