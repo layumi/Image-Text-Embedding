@@ -8,7 +8,7 @@ net.removeLayer('RankLoss');
 net.conserveMemory = true;
 im_mean = reshape(net.meta.normalization.averageImage,1,1,3);
 
-load('../../MSCOCO/url_data.mat');
+load('../dataset/MSCOCO-prepare/url_data.mat');
 p = imdb.images.data(imdb.images.set==3);
 ff = [];
 %%------------------------------
@@ -32,8 +32,8 @@ save('./resnet_coco_img.mat','ff','-v7.3');
 %}
 
 ff = [];
-load('../../MSCOCO/coco_word2.mat');
-load('../../MSCOCO/test_id.mat')
+load('../dataset/MSCOCO-prepare/coco_word2.mat');
+load('../dataset/MSCOCO-prepare/test_id.mat')
 test_word = wordcnn(:,test_id.txt_id>0);
 
 for i = 1:size(test_word,2)
