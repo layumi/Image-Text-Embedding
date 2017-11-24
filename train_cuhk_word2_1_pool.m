@@ -3,9 +3,9 @@ function train_id_net_vgg16(varargin)
 % Part 4.1: prepare the data
 % -------------------------------------------------------------------------
 
-imdb = load('/home/zzd/CUHK-PEDES/url_data.mat');
+imdb = load('./dataset/CUHK-PEDES-prepare/url_data.mat');
 imdb = imdb.imdb;
-load('/home/zzd/CUHK-PEDES/cuhk_word2.mat');
+load('./dataset/CUHK-PEDES-prepare/cuhk_word2.mat');
 imdb.charcnn = wordcnn; 
 %imdb.charmean = mean(imdb.charcnn(:,:,:,imdb.images.set==1),4);
 % -------------------------------------------------------------------------
