@@ -3,9 +3,9 @@ function train_id_net_vgg16(varargin)
 % Part 4.1: prepare the data
 % -------------------------------------------------------------------------
 
-imdb = load('../MSCOCO/url_data.mat');
+imdb = load('./dataset/MSCOCO-prepare/url_data.mat');
 imdb = imdb.imdb;
-load('../MSCOCO/coco_word2.mat');
+load('./dataset/MSCOCO-prepare/coco_word2.mat');
 %sort row
 [imdb.images.label2,index] = sort(imdb.images.label2);
 wordcnn = wordcnn(:,index);
