@@ -14,8 +14,8 @@ This repository contains the code for our paper [Dual-Path Convolutional Image-T
 - [x] Test on Flickr30k
 
 - [ ] Data Preparation (MSCOCO)
-- [ ] Train on MSCOCO
-- [ ] Test on MSCOCO
+- [x] Train on MSCOCO
+- [x] Test on MSCOCO
 
 - [x] Data Preparation (CUHK-PEDES)
 - [x] Train on CUHK-PEDES
@@ -40,7 +40,9 @@ Alternatively, you may try [VGG16](http://www.vlfeat.org/matconvnet/models/image
 
 Run `train_flickr_word_Rankloss_shift_hard` for **Stage II** training.
 
-* For MSCOCO, run
+* For MSCOCO, run `train_coco_word2_1_pool.m` for **Stage I** training.
+
+Run `train_coco_Rankloss_shift_hard.m` for **Stage II** training.
 
 * For CUHK-PEDES, run `train_cuhk_word2_1_pool.m` for **Stage I** training.
 
@@ -49,8 +51,8 @@ Run `train_cuhk_word_Rankloss_shift` for **Stage II** training.
 # Test
 Select one model and have fun!
 
-* For Flickr30k, run `test/extract_pic_feature_word2_plus_52.m` and to extract the image features from base branch and alignment brach. Note that you need to change the model path in the code. 
+* For Flickr30k, run `test/extract_pic_feature_word2_plus_52.m` and to extract the image features from image and text. Note that you need to change the model path in the code. 
 
-* For MSCOCO, 
+* For MSCOCO, run `test_coco/extract_pic_feature_word2_plus.m` and to extract the image features from image and text. Note that you need to change the model path in the code. 
 
-* For CUHK-PEDES, run `test-cuhk/extract_pic_feature_word2_plus_52.m` and to extract the image features from base branch and alignment brach. Note that you need to change the model path in the code. 
+* For CUHK-PEDES, run `test-cuhk/extract_pic_feature_word2_plus_52.m` and to extract the image features from image and text. Note that you need to change the model path in the code. 
