@@ -29,7 +29,7 @@ img_label = cat(2,img_id,img_id_val);
 caption = cat(2,caption,caption_val);
 caption_label = cat(2,caption_img_id,caption_img_id_val);
 
-% final 1000 id as test
+% final 5000 images as test
 rng(1);
 num = numel(data);
 set = ones(1,num);
