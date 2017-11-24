@@ -269,7 +269,7 @@ first = net.getParamIndex('fc2f');
 net.params(first).learningRate = 1e-3;  %w
 net.params(first+1).learningRate = 1e-3;  %b
 
-load('../MSCOCO/COCO_dictionary.mat');
+load('./dataset/MSCOCO-prepare/COCO_dictionary.mat');
 net.params(first).value = reshape(single(subset.features'),1,1,29972,300);
 
 end
