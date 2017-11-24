@@ -23,7 +23,7 @@ This repository contains the code for our paper [Dual-Path Convolutional Image-T
 
 - [ ] Run the code on another machine 
 
-# Prepocess Data
+# Prepocess Datasets
 1. Extract wrod2vec weights. Follow the instruction in `./word2vector_matlab`;
 
 2. Prepocess the dataset. Follow the instruction in `./dataset`. You can choose one dataset to run.
