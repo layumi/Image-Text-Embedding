@@ -1,5 +1,5 @@
-load('/home/zzd/nlp/word2vector_matlab/GoogleNews_words.mat');
-load('/home/zzd/nlp/word2vector_matlab/GoogleNews_vectors.mat');
+load('../GoogleNews_words.mat');
+load('../GoogleNews_vectors.mat');
 load('caption_train.mat');
 w_sum = cellfun(@(x) sum(x),w_names);
 subset.is_appear = zeros(1,3000000,'single');
