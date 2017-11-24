@@ -3,9 +3,14 @@
 ### 1. Download Data
 Please visit http://xiaotong.me/static/projects/person-search-language/dataset.html  and  download CUHK-PEDES.
 
-### 2. Clear data and Get dicitionary
+### 2. Put image url and text data in one file
 ```
-(matlab) clear_txt
+(matlab) prepare_imdb
+(matlab) prepare_test
+```
+
+### 3. Clear data and Get dicitionary
+```
 (matlab) make_dictionary
 ```
 
@@ -15,7 +20,3 @@ In this step, we also get rid of rare words, which are not included in GoogleNew
 (matlab) prepare_wordcnn_feature2
 ```
 
-### 4. Put image url and text data in one file
-```
-(matlab) prepare_data
-```
