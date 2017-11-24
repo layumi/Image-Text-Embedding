@@ -1,6 +1,6 @@
-addpath ./examples/imagenet;
-load('./dataset/Flickr30k-prepare/train_val_test_split.mat') ;
-imdb.imageDir = './dataset/Flickr30k-prepare/flickr30k-images-256/';
+addpath ../../examples/imagenet;
+load('./train_val_test_split.mat') ;
+imdb.imageDir = '/home/zzd/Image-Text-Embedding/dataset/Flickr30k-prepare/flickr30k-images-256/'; %please change it to your full path
 
 filename = dir([imdb.imageDir,'*jpg']);
 cell_data = {filename(1:end).name}.';
