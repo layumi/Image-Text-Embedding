@@ -51,8 +51,8 @@ Run `train_cuhk_word_Rankloss_shift` for **Stage II** training.
 # Test
 Select one model and have fun!
 
-* For Flickr30k, run `test/extract_pic_feature_word2_plus_52.m` and to extract the image features from image and text. Note that you need to change the model path in the code. 
+* For Flickr30k, run `test/extract_pic_feature_word2_plus_52.m` and to extract the feature from image and text. Note that you need to change the model path in the code. 
 
-* For MSCOCO, run `test_coco/extract_pic_feature_word2_plus.m` and to extract the image features from image and text. Note that you need to change the model path in the code. 
+* For MSCOCO, run `test_coco/extract_pic_feature_word2_plus.m` and to extract the feature from image and text. Note that you need to change the model path in the code. 
 
-* For CUHK-PEDES, run `test-cuhk/extract_pic_feature_word2_plus_52.m` and to extract the image features from image and text. Note that you need to change the model path in the code. 
+* For CUHK-PEDES, run `test-cuhk/extract_pic_feature_word2_plus_52.m` and to extract the feature from image and text. Note that you need to change the model path in the code. 
