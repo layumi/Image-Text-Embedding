@@ -21,10 +21,10 @@ img_id = [json.images.id];
 caption = {json.annotations.caption};
 caption_img_id = [json.annotations.image_id];
 
-
+% change full path
 data = cat(2,...
-    cellfun(@(x) sprintf('./image_256/train2014/%sjpg',x(1:end-3)), file_path,'UniformOutput',false),...
-    cellfun(@(x) sprintf('./image_256/val2014/%sjpg',x(1:end-3)), file_path_val,'UniformOutput',false));
+    cellfun(@(x) sprintf('/home/zzd/Image-Text-Embedding/dataset/MSCOCO-prepare/image_256/train2014/%sjpg',x(1:end-3)), file_path,'UniformOutput',false),...
+    cellfun(@(x) sprintf('/home/zzd/Image-Text-Embedding/dataset/MSCOCO-prepare/image_256/val2014/%sjpg',x(1:end-3)), file_path_val,'UniformOutput',false));
 img_label = cat(2,img_id,img_id_val);
 caption = cat(2,caption,caption_val);
 caption_label = cat(2,caption_img_id,caption_img_id_val);
