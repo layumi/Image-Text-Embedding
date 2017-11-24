@@ -5,7 +5,8 @@ Please visit http://xiaotong.me/static/projects/person-search-language/dataset.h
 
 ### 2. Put image url and text data in one file
 ```
-(matlab) prepare_imdb
+(matlab) resize_image
+(matlab) prepare_imdb  %you need to change the full path in this script
 (matlab) prepare_test
 ```
 
