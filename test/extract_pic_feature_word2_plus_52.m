@@ -1,5 +1,5 @@
 clear;
-netStruct = load('../data/res52_batch32_Rankloss_2:0:0_margin1_img0.75_shift_hard_256/net-epoch-20.mat');
+netStruct = load('../data/res52_batch32_Rankloss_2:1:0.1_margin0.5_img0.75_shift_hard_256/net-epoch-60.mat');
 net = dagnn.DagNN.loadobj(netStruct.net);
 clear netStruct;
 net.mode = 'test' ;
@@ -10,7 +10,7 @@ im_mean = reshape(net.meta.normalization.averageImage,1,1,3);
 load('../dataset/Flickr30k-prepare/url_data.mat');
 
 % val 2 test 3
-p = imdb.images.data(imdb.images.set==2);
+p = imdb.images.data(imdb.images.set==3);
 ff = [];
 %%------------------------------
 for i = 1:1000
