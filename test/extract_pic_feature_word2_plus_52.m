@@ -36,7 +36,7 @@ save('../test/resnet_flikr30k_pool5_img.mat','ff','-v7.3');
 ff = [];
 load('../dataset/Flickr30k-prepare/dense_feature_word2.1.mat');
 % val 2 test 3
-test_set = find(imdb.images.set==2);
+test_set = find(imdb.images.set==3);
 
 for i = 1:1000
     disp(i);
