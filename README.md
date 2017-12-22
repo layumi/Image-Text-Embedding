@@ -16,6 +16,9 @@ Three datasets need different prepocessing. I write the instruction for [Flickr3
 ```
 Alternatively, you may try [VGG16](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-16.mat) or [VGG19](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat). 
 
+# Trained Model
+You may download the three trained models from [GoogleDrive](https://drive.google.com/open?id=1QxIdJd3oQIJSVVlAxaIZquOoLQahMrWH).
+
 # Train
 * For Flickr30k, run `train_flickr_word2_1_pool.m` for **Stage I** training.
 
