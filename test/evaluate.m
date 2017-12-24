@@ -1,7 +1,6 @@
 clear;
 load('../dataset/Flickr30k-prepare/url_data.mat');
 load('../dataset/Flickr30k-prepare/train_val_test_split.mat');
-load('../dataset/Flickr30k-prepare/flickr30k-txt.mat');
 load('../dataset/Flickr30k-prepare/rawdata-txt.mat');
 % get original txt gallery  (size==5000)
 test_set = find(set==3);
