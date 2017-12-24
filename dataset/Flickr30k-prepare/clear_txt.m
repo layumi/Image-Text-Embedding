@@ -21,7 +21,7 @@ end
 fclose(fid);
 fclose(fid2);
 %fprintf('mean char: %d', mean(ll));
-%save('rawdata-txt.mat','raw_txt');
+save('rawdata-txt.mat','raw_txt');
 
 
 
