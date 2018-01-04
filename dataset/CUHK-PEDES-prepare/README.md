@@ -1,7 +1,10 @@
 ## Prepare Data
 
 ### 1. Download Data
-Please visit http://xiaotong.me/static/projects/person-search-language/dataset.html  and  download CUHK-PEDES.
+Please visit http://xiaotong.me/static/projects/person-search-language/dataset.html  and  download images of CUHK-PEDES.
+
+The 'reid_raw.json' is from https://github.com/ShuangLI59/Person-Search-with-Natural-Language-Description. 
+This file can be used to split the train/val/test.
 
 ### 2. Put image url and text data in one file
 ```
