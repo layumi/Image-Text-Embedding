@@ -202,8 +202,9 @@ classdef Layer < handle
       for f = fieldnames(s)'
         fc = char(f) ;
         if ~isprop(obj, fc)
-          error('No property `%s` for a layer of type `%s`.', ...
-            fc, class(obj));
+          %error('No property `%s` for a layer of type `%s`.', ...
+           % fc, class(obj));
+           continue;
         end;
         obj.(fc) = s.(fc) ;
       end
