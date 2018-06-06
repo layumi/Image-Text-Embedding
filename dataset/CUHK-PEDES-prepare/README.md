@@ -2,6 +2,7 @@
 
 ### 1. Download Data
 Please visit http://xiaotong.me/static/projects/person-search-language/dataset.html  and  download images of CUHK-PEDES.
+The alternative download link is at http://cuhk-pedes.shuanglee.me/ (You may need to contact with the author to acqurie the dataset.)
 
 The 'reid_raw.json' is from https://github.com/ShuangLI59/Person-Search-with-Natural-Language-Description. 
 This file can be used to split the train/val/test.
