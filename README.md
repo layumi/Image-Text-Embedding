@@ -4,6 +4,8 @@ This repository contains the code for our paper [Dual-Path Convolutional Image-T
 
 ![](http://zdzheng.xyz/images/fulls/ConvVSE.jpg)
 
+**What's New**: We updated the paper to the second version, adding more illustration about the mechanism of the proposed instance loss.
+
 # Prepocess Datasets
 1. Extract wrod2vec weights. Follow the instruction in `./word2vector_matlab`;
 
