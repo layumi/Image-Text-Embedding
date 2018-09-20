@@ -4,6 +4,8 @@ This repository contains the code for our paper [Dual-Path Convolutional Image-T
 
 ![](http://zdzheng.xyz/images/fulls/ConvVSE.jpg)
 
+![](https://github.com/layumi/Image-Text-Embedding/blob/master/CUHK-show.jpg)
+
 **What's New**: We updated the paper to the second version, adding more illustration about the mechanism of the proposed instance loss.
 
 # Prepocess Datasets
