@@ -8,6 +8,11 @@ This repository contains the code for our paper [Dual-Path Convolutional Image-T
 
 **What's New**: We updated the paper to the second version, adding more illustration about the mechanism of the proposed instance loss.
 
+# Install Matconvnet
+I have included my Matconvnet in this repo, so you do not need to download it again.You just need to uncomment and modify some lines in gpu_compile.m and run it in Matlab. Try it~ (The code does not support cudnn 6.0. You may just turn off the Enablecudnn or try cudnn5.1)
+
+If you fail in compilation, you may refer to http://www.vlfeat.org/matconvnet/install/
+
 # Prepocess Datasets
 1. Extract wrod2vec weights. Follow the instruction in `./word2vector_matlab`;
 
