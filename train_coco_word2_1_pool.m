@@ -14,7 +14,7 @@ imdb.charcnn = wordcnn;
 % -------------------------------------------------------------------------
 % Part 4.2: initialize a CNN architecture
 % -------------------------------------------------------------------------
-net = coco_word2_pool_no_w2v();
+net = coco_word2_pool();
 net.conserveMemory = true;
 im_mean = imdb.rgbMean;
 net.meta.normalization.averageImage = im_mean;
