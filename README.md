@@ -25,6 +25,8 @@ Three datasets need different prepocessing. I write the instruction for [Flickr3
 ```
 Alternatively, you may try [VGG16](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-16.mat) or [VGG19](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat). 
 
+You may have a different split with me. (Sorry, this is my fault. I used a random split.) Just for a backup, this is the [dictionary archive](https://drive.google.com/open?id=1Yp6B5GKhgQTD9bsmvmVkvxt-SnmHHjVA) used in the paper.
+
 # Trained Model
 You may download the three trained models from [GoogleDrive](https://drive.google.com/open?id=1QxIdJd3oQIJSVVlAxaIZquOoLQahMrWH).
 
