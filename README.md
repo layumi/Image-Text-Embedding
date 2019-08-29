@@ -1,5 +1,7 @@
 # Dual-Path Convolutional Image-Text Embedding
 
+[[Paper]](https://arxiv.org/abs/1711.05535) [[Slide]](http://zdzheng.xyz/ZhedongZheng_CA_Talk_DualPath.pdf)
+
 This repository contains the code for our paper [Dual-Path Convolutional Image-Text Embedding](https://arxiv.org/abs/1711.05535). Thank you for your kindly attention. 
 
 ![](http://zdzheng.xyz/images/fulls/ConvVSE.jpg)
