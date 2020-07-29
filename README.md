@@ -71,3 +71,17 @@ Select one model and have fun!
 - [x] Test on CUHK-PEDES
 
 - [ ] Run the code on another machine 
+
+### Citation
+```bibtex
+@article{zheng2017dual,
+  title={Dual-Path Convolutional Image-Text Embeddings with Instance Loss},
+  author={Zheng, Zhedong and Zheng, Liang and Garrett, Michael and Yang, Yi and Xu, Mingliang and Shen, Yi-Dong},
+  journal={ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)},
+  volume={16},
+  number={2},
+  pages={1--23},
+  year={2020},
+  publisher={ACM New York, NY, USA}
+}
+```
