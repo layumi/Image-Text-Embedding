@@ -86,6 +86,7 @@ Select one model and have fun!
   author={Zheng, Zhedong and Zheng, Liang and Garrett, Michael and Yang, Yi and Xu, Mingliang and Shen, Yi-Dong},
   journal={ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)},
   doi={10.1145/3383184},
+  note={\mbox{doi}:\url{10.1145/3383184}},
   volume={16},
   number={2},
   pages={1--23},
