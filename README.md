@@ -5,6 +5,8 @@
 This repository contains the code for our paper [Dual-Path Convolutional Image-Text Embedding](https://arxiv.org/abs/1711.05535). Thank you for your kindly attention. 
 
 ### Some News
+- Instance Loss (Pytorch version) is now available at https://github.com/layumi/Person_reID_baseline_pytorch/blob/master/instance_loss.py  
+
 **5 Sep 2021** I love the sentence that 'Define yourself via tell what you are different from others' (exemplar SVM), which also is the spirit of the instance loss. 
 
 **11 June 2020** People live in the 3D world. We release one new person re-id code [Person Re-identification in the 3D Space](https://github.com/layumi/person-reid-3d), which conduct representation learning in the 3D space. You are welcomed to check out it.
