@@ -41,7 +41,7 @@ Alternatively, you may try [VGG16](http://www.vlfeat.org/matconvnet/models/image
 You may have a different split with me. (Sorry, this is my fault. I used a random split.) Just for a backup, this is the [dictionary archive](https://drive.google.com/open?id=1Yp6B5GKhgQTD9bsmvmVkvxt-SnmHHjVA) used in the paper.
 
 # Trained Model
-You may download the three trained models from [GoogleDrive](https://drive.google.com/open?id=1QxIdJd3oQIJSVVlAxaIZquOoLQahMrWH).
+You may download the three trained models from ~~[GoogleDrive](https://drive.google.com/open?id=1QxIdJd3oQIJSVVlAxaIZquOoLQahMrWH)~~ [new GoogleDrive](https://drive.google.com/file/d/165nn3Q07nRPGaLqPCCxPI-K5Vi9yNhYu/view?usp=share_link).
 
 # Train
 * For Flickr30k, run `train_flickr_word2_1_pool.m` for **Stage I** training.
