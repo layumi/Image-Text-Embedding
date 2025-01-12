@@ -1,4 +1,4 @@
-# Dual-Path Convolutional Image-Text Embedding
+# Dual-Path Convolutional Image-Text Embedding with Instance Loss
 
 [[Paper]](https://arxiv.org/abs/1711.05535) [[Slide]](http://zdzheng.xyz/files/ZhedongZheng_CA_Talk_DualPath.pdf) :arrow_left: **I recommend to check this slide first.** :arrow_left:
 
